@@ -6,8 +6,7 @@
 }
 
 .macro m1(p1) {
-   lda #p1
-}
+   lda #ns1.fun(0)
 
-:m1(ns1.z + ns1.fun(0))
+}
 
