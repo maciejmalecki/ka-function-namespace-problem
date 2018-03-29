@@ -1,5 +1,5 @@
 .namespace ns1 {
-
+.label z=0
 .function fun(value) {
 	.return value
 }
@@ -9,5 +9,5 @@
    lda #p1
 }
 
-:m1(ns1.fun(0))
+:m1(ns1.z + ns1.fun(0))
 
