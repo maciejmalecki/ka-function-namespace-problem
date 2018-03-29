@@ -1,9 +1,9 @@
 .namespace ns1 {
 
-.function funwithwaylongername(value) {
+.function funWithwaylongername(value) {
 	.return value
 }
 }
 
 
-lda #[ns1.funwithfarlongername(0)]
+lda #[ns1.funWithfarlongername(0)]
