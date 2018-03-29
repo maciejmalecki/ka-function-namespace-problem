@@ -1,0 +1,1 @@
+# ka-function-namespace-problem
